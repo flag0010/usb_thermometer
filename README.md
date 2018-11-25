@@ -10,6 +10,7 @@ First I bought a cheap USB thermometer. Something called the TEMPer (https://goo
 I don't have linux box like the person writing the article above, but I do have an old mac laptop. To interact with the USB thermometer you need to install libusb. On a mac the easy way is using home brew. The following commands will install homebrew (skip if you have it) and use homebrew to install libusb:
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 `brew install libusb`
 
 Next you need an gmail account to send the emails through, and you'll have to configure gmail to allow your laptop to send email via SMTP.  You can do this at https://myaccount.google.com/.  From the homescreen under `Sign-in & Security` you should see a linked called `Signing in to Google`.  And once clicking on that link click on `App passwords`.  It will probably ask you to enter your gmail password next.  Then you need to create a new app.  Under the `Select the app and device you want to generate the app password for.` heading, select `Other (custom name)` in the select app box.  Give it some name (I used "python").  And click `Generate`.  This should then give you a 16 character password that will allow our temp sensor to send emails.  Copy this password and save it (but keep it secret).
