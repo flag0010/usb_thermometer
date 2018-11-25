@@ -3,7 +3,7 @@ hacking a cheap usb thermometer to send notifications about house temp
 
 When I leave my home empty in the winter I always worry my furnace will die, causing my house to freeze (broken pipes/water damage). Commercial wifi based temperature notification systems are available (e.g. Nest), but all I've seen cost >$150.  I wondered if I could use a cheap USB thermometer ($13 on Amazon) attached to an old mac laptop and have it send notifications via email.  
 
-#Setup
+# Setup
 
 First I bought a cheap USB thermometer. Something called the TEMPer (https://goo.gl/qRwhm6).  It cost about $13.  Here's an artical about the TEMPer: https://www.phoronix.com/scan.php?page=article&item=ebest-temper-linux&num=1
 
