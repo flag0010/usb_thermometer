@@ -5,7 +5,7 @@ When I leave my home empty in the winter I always worry my furnace will die, cau
 
 # Setup
 
-First I bought a cheap USB thermometer. Something called the TEMPer (https://goo.gl/qRwhm6).  It cost about $13.  Here's an artical about the TEMPer: https://www.phoronix.com/scan.php?page=article&item=ebest-temper-linux&num=1
+First I bought a cheap USB thermometer. Something called the TEMPer (https://goo.gl/qRwhm6).  It cost about $13.  Here's an article about the TEMPer: https://www.phoronix.com/scan.php?page=article&item=ebest-temper-linux&num=1
 
 I don't have linux box like the person writing the article above, but I do have an old mac laptop. To interact with the USB thermometer you need to install libusb. On a mac the easy way is using home brew. The following commands will install homebrew (skip if you have it) and use homebrew to install libusb:
 
